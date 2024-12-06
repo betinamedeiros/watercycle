@@ -108,7 +108,7 @@ class _HomeScreenState extends State<HomeScreen> {
               elevation: 7,
               child: ListTile(
                 title: Text('Última irrigação', style: TextStyle(fontWeight: FontWeight.bold)),
-                leading: Icon(Icons.calendar_month_sharp, color: Colors.blue),
+                leading: Icon(Icons.calendar_month_sharp, color: Colors.red),
                 subtitle: Row(
                   children: [
                     Icon(Icons.access_time,),
